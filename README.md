@@ -1,6 +1,28 @@
-11111111
+# Xccela
+## 1	Purpose and IP features introduction
+
+### 1.1	Purpose introduction
+There are many reduced pin count (RPC) memory on the market, but they are all special protocols. This example finds and uses Xccela PSRAM to do IP development.
+Usually, the MCU controls the PSRAM controller through the "AXI BUS" protocol, and the IP between the two still lacks some functions as shown in the following figure (Slave AXI + Bridge + PSRAM controller ), the open source sample code is provided, for your reference and use.
 <p align="center">
   <img src="xgui/figure2.png">
 </p>
 
-11111
+### 1.2	IP features introduction
+This IP (Slave AXI + Bridge + PSRAM controller) supports the functions listed below:
+•	Supports Xccela x8 IO psram protocol.
+•	Supports Xccela psram maximum frequency 200 MHz
+•	Supports Xccela psram mode register write and read, MR0~MR8.
+•	Supports Xccela psram array write and read.
+•	Supports AXI4 maximum frequency 250 MHz
+•	Supports AXI4 data width of 16/32-bit
+•	Supports AXI4 address width of 32-bit
+•	Supports AXI4 INCR burst length of 256.
+•	Supports AXI4 Narrow Transaction.
+
+## 2	IP block diagram
+The following diagram uses a detailed block diagram to illustrate the functionality required for each block.
+<p align="center">
+  <img src="xgui/figure1.png">
+</p>
+ 
