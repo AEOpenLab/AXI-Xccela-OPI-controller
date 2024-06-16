@@ -1,5 +1,5 @@
 # AXI-Xccela
-Usually, the MCU controls the PSRAM controller through the "AXI BUS" protocol, and the IP between the two still lacks some functions as shown in the following figure (Slave AXI + Bridge + PSRAM controller ), the open source sample code is provided, for your reference and use.
+Usually, the MCU controls the PSRAM controller through the "AXI BUS" protocol, and the IP as shown in the following figure (Slave AXI + Bridge + PSRAM controller ) for reference.
 <p align="center">
   <img src="xgui/figure2.png">
 </p>
