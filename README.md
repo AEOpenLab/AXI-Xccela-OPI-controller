@@ -1,11 +1,10 @@
 # AXI-Xccela
-## 1.1	Purpose introduction
 Usually, the MCU controls the PSRAM controller through the "AXI BUS" protocol, and the IP between the two still lacks some functions as shown in the following figure (Slave AXI + Bridge + PSRAM controller ), the open source sample code is provided, for your reference and use.
 <p align="center">
   <img src="xgui/figure2.png">
 </p>
 
-## 1.2	IP features introduction
+## IP features introduction
 This IP (Slave AXI + Bridge + PSRAM controller) supports the functions listed below:
 •	Supports Xccela x8 IO psram protocol.
 •	Supports Xccela psram maximum frequency 200 MHz
@@ -17,7 +16,7 @@ This IP (Slave AXI + Bridge + PSRAM controller) supports the functions listed be
 •	Supports AXI4 INCR burst length of 256.
 •	Supports AXI4 Narrow Transaction.
 
-## 2	IP block diagram
+## IP block diagram
 The following diagram uses a detailed block diagram to illustrate the functionality required for each block.
 <p align="center">
   <img src="xgui/figure1.png">
