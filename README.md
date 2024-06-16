@@ -7,8 +7,11 @@ Usually, the MCU controls the PSRAM controller through the "AXI BUS" protocol, a
 ## IP features introduction
 This IP (Slave AXI + Bridge + PSRAM controller) supports the functions listed below:
 •	Supports Xccela x8 IO psram protocol.
+
 •	Supports Xccela psram maximum frequency 200 MHz
+
 •	Supports Xccela psram mode register write and read, MR0~MR8.
+
 •	Supports Xccela psram array write and read.
 •	Supports AXI4 maximum frequency 250 MHz
 •	Supports AXI4 data width of 16/32-bit
