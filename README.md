@@ -13,10 +13,15 @@ This IP (Slave AXI + Bridge + PSRAM controller) supports the functions listed be
 •	Supports Xccela psram mode register write and read, MR0~MR8.
 
 •	Supports Xccela psram array write and read.
+
 •	Supports AXI4 maximum frequency 250 MHz
+
 •	Supports AXI4 data width of 16/32-bit
+
 •	Supports AXI4 address width of 32-bit
+
 •	Supports AXI4 INCR burst length of 256.
+
 •	Supports AXI4 Narrow Transaction.
 
 ## IP block diagram
