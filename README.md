@@ -1,4 +1,4 @@
-# Xccela
+# AXI-Xccela
 ## 1	Purpose and IP features introduction
 
 ### 1.1	Purpose introduction
